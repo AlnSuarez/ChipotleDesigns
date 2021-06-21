@@ -1,0 +1,353 @@
+
+/*esta es una tipografía nueva, Harbinger-Caps.otf*/
+@font-face{
+	font-family:Poppins;
+	src:url(../fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+nav{
+  background-color: #000000; 
+  height: 7em ;
+  top: 0%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppins;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+body{
+    margin: 0%;
+    /* background: linear-gradient(180deg, rgba(249,122,59,1) 0%, rgba(66,86,254,1) 100%); */
+}
+#menuflotante{
+    position: fixed;
+    top: 7em;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #235789;
+    text-align: center;
+    text-decoration: none;
+    
+    display: none;
+    
+}
+
+#cuerpoPortafolio{
+    margin-top: 8em;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#cajadegente{
+    margin: 1%;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    width: 30%;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    font-weight: bold;
+    transition: all 1s ease;
+
+}
+
+#cajadegente:hover{
+    background-color:black;
+    color: aliceblue;
+    fill: #FFFFFF;
+}
+
+#textoPersona{
+    width: 40%;
+    height: fi;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 5%;
+    text-align: justify;
+    
+}
+
+#text{
+    display: inline;
+    margin: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+#igimage{
+    width: 10px;
+    fill: purple;
+}
+
+#tiktokimg{
+    fill: purple;
+}
+
+#linkedinimg{
+    fill: purple;
+}
+
+
+#cajadegente img{
+    width: auto;
+    height: 6em;
+    
+    aspect-ratio: 4/4;
+    padding: 11%;
+}
+
+.akiraFont{
+    font-family: Poppins;
+    font-size: 1.3em;
+}
+#texto{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 50%;
+    font-size: 70%;
+    
+}
+
+#gif{
+    
+    justify-content: center;
+}
+
+#imagenTexto{
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+ 
+#Capa_1{
+    display: none;
+    height: 3em;
+}
+
+#Capa_1:hover{
+    fill: pink;
+    transition: 1s ease;
+}
+
+
+ul{
+    list-style-type: none;
+    font-family: akira;
+    color: #FFFFFF;
+    margin-top: 7em;
+}
+
+li{
+    margin-top: 7em;
+}
+
+#somos{
+    margin-top: 7em;
+    width: 100%;
+}
+#menuNormal{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+
+#menuNormal:hover{
+    color: pink;
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+.clickGente{
+    display: block;
+}
+
+#chipotle{
+    height: 7em;
+    /* animation: chipotleAnimation 2s infinite  ease; */
+}
+
+
+
+@keyframes chipotleAnimation{
+    
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-5px); }
+        100% { transform: translateY(0); }
+
+}
+
+
+
+  /* Responsive layout - when the screen is less than 768 wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    nav{
+        background-color: black; 
+        height: 7em;
+        margin-top: 0%;
+        display: block;
+        justify-content: space-around;
+        font-family: Akira;
+        width: 100%;
+      }
+
+    #menuflotante{
+        position: fixed;
+        top: 7em;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #235789;
+        text-align: center;
+        opacity: 0.9;
+        left: -100%;
+        transition: all 1s;
+         
+    }
+
+    #cuerpoPortafolio{
+        margin-top: 8em;
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+        justify-content: center;
+        
+    }
+
+    #cajadegente{
+        margin: 5%;
+        border-radius: 20px;
+        background-color:#FFFFFF;
+        width: 90%;
+        height: fit-content;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        display: flex;
+        font-size: 0.9em;
+    }
+    #textoPersona{
+        width: 70%;
+        height: fit-content;
+        background-color: aliceblue;
+        border-radius: 30px;
+        margin: 2%;
+        padding: 13%;
+        text-align: justify;
+        font-size: 0.9em;
+    }
+
+    .fotoPerfil{
+        width: 30%;
+        height: auto;
+        margin-left: 5%;
+        padding: 1%;
+        
+    }
+
+    #texto{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 50%;
+        font-size: 70%;
+        
+    }
+
+    
+
+    #menuNormal{
+        display: none;
+    }
+    
+
+    
+
+    #Capa_1{
+        fill: #FFFFFF;
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        text-align: left;
+        height: 2em;
+        position: fixed;
+        right: 10%;
+        top: 2.5em;
+        
+    }
+    #Capa_1:hover{
+      fill:yellow;
+      transition: ease all .5;
+    }
+    
+
+    #anahuac{
+        width: 100%;
+        margin: 0%; 
+        padding: 0%;
+
+    }
+    #colombo{
+        width: 100%;
+        margin: 0%;
+        padding: 0%; 
+    }
+
+    #portafolio{
+        display: none;
+    }
+    
+    #portafolio:hover{
+        color: pink;
+        transition: 1s ease;
+    }
+    #quesomos{
+        display: none;
+    }
+    #quesomos:hover{
+        color: pink;
+        transition: 1s ease;
+    }
+    #chipotle{
+        margin-top: 1em;
+        margin-left: 2em;
+        height: 5em;
+    }
+    
+
+  }
+  @media (max-width: 1194px) and (min-width: 768px)  {
+    .fotoPerfil{
+        width: auto;
+        height: auto;
+        margin-left: 5%;
+        padding: 1%;    
+    }
+    
+  }
+
+  
+/* Aqui termina la parte del contacto */

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#FFFFFF" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/chipotlelogo.png" type="image/gif" sizes="16x16">
+    <title>Chipotle Designs</title>
+    <script src="/JS/methods.js"></script>
+    
+</head> 
+<body>
+
+
+    
+    <nav>
+        
+        <img src="img/chipotledesignstransparente.png" id="chipotle" alt="Logo de chipotle">
+        <!-- imagen de menu -->
+        <svg id="Capa_1" onclick="toggleMenu()" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3091 1613"><defs></defs><title>menu</title><rect class="cls-1" width="3091" height="341" rx="170.5"/><rect class="cls-1" y="625" width="3091" height="341" rx="170.5"/><rect class="cls-1" y="1272" width="3091" height="341" rx="170.5"/></svg> 
+        <!-- texto menu -->
+        
+            <h1 id="menuNormal">Portafolio</h1>
+            <h1 id="menuNormal">¿Qu&eacute; somos?</h1>
+            <h1 id="menuNormal"><a href="/html/consejos.html">Consejos</a></h1>
+
+    </nav>
+    <div id="menuflotante">
+        <ul>
+            <li>¿Qu&eacute; somos?</li>
+            <li>Portafolio</li>
+            <li><a href="/html/consejos.html">Consejos</a></li>
+
+        </ul>
+    </div>
+    <img src="img/somos.gif" id="somos" alt="caso de exito1 anahuac">
+    </video>
+
+    <div id="pardevideos">
+        <img src="img/anahuac3.gif" id="anahuac" alt="caso de exito1 anahuac">
+        <img src="img/colombogif.gif" id="colombo" alt="caso de exito2 colombo">    
+        
+    </div>
+
+
+
+    <!-- contenedor de contacto -->
+    <div class="container">
+        <div style="text-align:center">
+          <h2 id="contactanos">Contactanos</h2>
+          
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="./img/chipotledesignstransparente.png" style="width:75%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname" id="labelInformacion">Nombre</label>
+              <input type="text" id="fname" name="firstname" placeholder="Pon tu nombre aqu&iacute;">
+              <label for="lname" id="labelInformacion">Apellidos</label>
+              <input type="text" id="lname" name="lastname" placeholder="Pon tu apellido aqu&iacute;">
+              <label for="lname" id="labelInformacion">Correo</label>
+              <input type="text" id="lname" name="lastname" placeholder="Pon tu correo aqu&iacute;">
+              <label for="country" id="labelInformacion">Pa&iacutes</label>
+              <select id="country" name="country">
+                <option value="australia">México</option>
+                <option value="canada">Estados Unidos</option>
+                <option value="usa">Canada</option>
+                <option value="usa">Argentina</option>
+                <option value="usa">Chile</option>
+              </select>
+              <label for="subject">Cuentanos algo:</label>
+              <textarea id="subject" name="subject" placeholder="Escribenos algo.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- fin del contenedor de contacto -->
+
+</body>
+</html>

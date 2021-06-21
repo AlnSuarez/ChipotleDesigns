@@ -1,0 +1,260 @@
+
+/*esta es una tipografía nueva, Harbinger-Caps.otf*/
+@font-face{
+	font-family:Poppins;
+	src:url(/fonts/Poppins-Black.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,100&display=swap');
+
+a:link , a:hover {
+  text-decoration: none!important;
+}
+
+
+nav{
+  background-color: #000000; 
+  height: 7em ;
+  top: 0%;
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppins;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+body{
+    margin: 0%;
+    /* background: linear-gradient(180deg, rgba(249,122,59,1) 0%, rgba(66,86,254,1) 100%); */
+}
+#menuflotante{
+    position: fixed;
+    top: 7em;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #235789;
+    text-align: center;
+
+    display: none;
+    text-decoration: none;
+    
+}
+ 
+#Capa_1{
+    display: none;
+    height: 3em;
+}
+
+#Capa_1:hover{
+    fill: pink;
+    transition: 1s ease;
+}
+
+ul{
+    list-style-type: none;
+    font-family: akira;
+    color: #FFFFFF;
+    margin-top: 7em;
+}
+
+li{
+    margin-top: 7em;
+}
+
+#somos{
+    margin-top: 7em;
+    width: 100%;
+}
+#menuNormal{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+
+#menuNormal:hover{
+    color: pink;
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+#chipotle{
+    height: 7em;
+}
+
+#anahuac{
+    width: 49.5%;
+    margin: 0%; 
+   margin-left: 0.05;
+    padding: 0%;
+}
+#colombo{
+    width: 49.5%;
+    margin: 0%;
+   
+    padding: 0%; 
+}
+
+
+#pardevideos{
+    display: inline-block;
+}
+
+
+
+
+/* Esta es la parte del contacto */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #contactanos{
+    font-family: akira;
+    color: #FFFFFF;
+  }
+  
+  #labelInformacion{
+    font-family: akira;
+    color: #FFFFFF;
+  }
+
+   
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    nav{
+        background-color: black; 
+        height: 7em;
+        margin-top: 0%;
+        display: block;
+        justify-content: space-around;
+        font-family: Akira;
+        width: 100%;
+      }
+
+    #menuflotante{
+        position: fixed;
+        top: 7em;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #235789;
+        text-align: center;
+        opacity: 0.9;
+        left: -100%;
+        transition: all 1s;
+        
+       
+    }
+     
+    #menuNormal{
+      display: none;
+    }
+
+    
+
+    #Capa_1{
+        fill: #FFFFFF;
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        text-align: left;
+        height: 2em;
+        position: fixed;
+        right: 10%;
+        top: 2.5em;
+        
+    }
+    #Capa_1:hover{
+      fill:yellow;
+      transition: ease all .5;
+    }
+    
+
+    #anahuac{
+        width: 100%;
+        margin: 0%; 
+        padding: 0%;
+
+    }
+    #colombo{
+        width: 100%;
+        margin: 0%;
+        padding: 0%; 
+    }
+
+    #portafolio{
+        display: none;
+    }
+    
+    #portafolio:hover{
+        color: pink;
+        transition: 1s ease;
+    }
+    #quesomos{
+        display: none;
+    }
+    #quesomos:hover{
+        color: pink;
+        transition: 1s ease;
+    }
+    #chipotle{
+        margin-top: 1em;
+        margin-left: 2em;
+        height: 5em;
+    }
+    
+
+  }
+
+  
+/* Aqui termina la parte del contacto */
